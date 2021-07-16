@@ -19,6 +19,5 @@ jobs:
     - uses: jacobwgillespie/setup-node@cache-pnpm
       with:
         node-version: ${{ matrix.version }}
-        cache: pnpm
     - name: Install dependencies
       run: pnpm install
